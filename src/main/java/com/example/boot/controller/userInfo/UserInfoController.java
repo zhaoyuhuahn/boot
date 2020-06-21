@@ -4,6 +4,8 @@ import com.alibaba.fastjson.JSON;
 import com.example.boot.service.userInfo.UserInfoService;
 import org.springframework.web.bind.annotation.RequestMapping;
 import com.alibaba.fastjson.serializer.SerializerFeature;
+
+import javax.annotation.Resource;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -16,7 +18,7 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 public class UserInfoController
 {
-    @Override
+    @Resource
     public UserInfoService userInfoService;
 
     /**

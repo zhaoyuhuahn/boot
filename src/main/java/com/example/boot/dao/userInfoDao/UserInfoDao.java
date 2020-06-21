@@ -1,4 +1,4 @@
-package com.example.boot.mapper.userInfoMapper;
+package com.example.boot.dao.userInfoDao;
 
 import com.example.boot.error.AppRunTimeException;
 import org.springframework.stereotype.Repository;
@@ -13,7 +13,7 @@ import java.util.Map;
  * @Date 2020/6/15
  */
 @Repository
-public interface UserInfoMapper
+public interface UserInfoDao
 {
     /**
      * getUserInfoByUserNumAndUserPhone 根据编号和手机号查询用户信息接口
